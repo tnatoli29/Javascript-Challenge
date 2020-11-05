@@ -20,7 +20,7 @@ tableData.forEach((UFO) => {
 
 
 
-var button = d3.select("#button");
+var button = d3.select("#filter-btn");
 var form = d3.select("#form");
 
 button.on("click", runEnter);
